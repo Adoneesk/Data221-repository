@@ -1,11 +1,11 @@
 from itertools import product
+#
 
-
-def exponential_function_of_pairs(list_of_pairs):
+def exponential_function_of_pairs(list_of_given_pairs):
     list_of_results = []
     exponent = 0
     base = 0
-    for i in list_of_pairs:
+    for i in list_of_given_pairs:
         if i[1] < 0:
             continue
         exponent = i[1]

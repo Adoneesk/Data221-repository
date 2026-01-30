@@ -7,7 +7,7 @@ def seconds_since_midnight(seconds):
     secs = remaining%60
 
     if hours24 <12:
-        period = "AM"
+        period ="AM"
     else:
         period = "PM"
     hours12 = hours24 %12
@@ -16,5 +16,4 @@ def seconds_since_midnight(seconds):
 
     return f"{hours12:02d} {minutes:02d} {secs:02d} {period}"
 
-##done (double)
 

@@ -4,7 +4,7 @@ def my_function(list):
     unique_values = sorted(set(list))
 
     for i in unique_values:
-        count = 0
+        count =0
         for j in list:
             if j<=i:
                 count+=1
@@ -12,5 +12,3 @@ def my_function(list):
     return result
 
 print(my_function([1,2,3,4,5,6,7,8,9]))
-
-##done (double)

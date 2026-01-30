@@ -1,7 +1,7 @@
 import math
 def circle_coverage(radius1, radius2):
     if radius1<0 or radius2<0:
-        return "Error, one or both radii invalid. Radius must be greater than zero."
+        return "Error, one or both radii invalid. Radius must be greater than zero." #
     area1 = math.pi * (radius1**2)
     area2 = math.pi * (radius2**2)
 

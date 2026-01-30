@@ -1,6 +1,6 @@
 #Data assignment
 
-##question1.py
+##question1.py 
 Stores a threshold variable and keeps track of a current multiplier in order to print the product of consecutive integers.
 
 ##question2.py

@@ -7,5 +7,5 @@ def convert_list_of_strings_to_dictionary(user_list):
             parity = "odd"
             new_dictionary[i] = {"length":len(i), "parity": parity}
     return new_dictionary
-#
+###
 
